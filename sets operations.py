@@ -1,0 +1,10 @@
+m={14,18,20,5,8}
+p={25,86,42,20,91,12}
+m_union=m|p
+print(m_union)
+q=m^p
+print(q)
+r=p-q
+print(r)
+s=p&q
+print(s)
